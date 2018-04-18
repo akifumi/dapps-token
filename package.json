@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/akifumi/dapps-token#readme",
   "dependencies": {
+    "truffle-hdwallet-provider": "0.0.3",
     "zeppelin-solidity": "^1.8.0"
   }
 }
