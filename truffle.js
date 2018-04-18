@@ -1,6 +1,7 @@
+require('dotenv').config()
 var HDWalletProvider = require("truffle-hdwallet-provider");
-var mnemonic = $MNEMONIC;
-var accessToken = $INFURA_ACCESS_TOKEN;
+var mnemonic = process.env.MNEMONIC;
+var accessToken = process.env.INFURA_ACCESS_TOKEN;
 
 module.exports = {
     networks: {
